@@ -1,0 +1,23 @@
+name:                ikiska
+version:             0.1.0.0
+synopsis:            Blink with Apple logo of your macbook
+homepage:            https://github.com/nettsundere/ikiska
+license:             MIT
+license-file:        LICENSE
+author:              Vladimir "nettsundere" Kiselev
+maintainer:          nettsundere@gmail.com
+category:            Fun
+build-type:          Simple
+cabal-version:       >=1.8
+
+executable ikiska
+  main-is: Blink.hs
+  hs-source-dirs: src
+  build-depends: base
+
+  includes: blinkExports.h
+  include-dirs: include/blink/blink
+
+  frameworks: Cocoa Foundation CoreData IoKIT
+  extra-libraries: blink
+  extra-lib-dirs: include/blink/build

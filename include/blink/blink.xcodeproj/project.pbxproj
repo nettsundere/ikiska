@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CD3338019539088001F79D5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD3337F19539088001F79D5 /* Cocoa.framework */; };
+		2CD3338A19539088001F79D5 /* blink.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD3338919539088001F79D5 /* blink.m */; };
+		2CD3339119539088001F79D5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD3339019539088001F79D5 /* XCTest.framework */; };
+		2CD3339219539088001F79D5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD3337F19539088001F79D5 /* Cocoa.framework */; };
+		2CD3339519539088001F79D5 /* libblink.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD3337C19539088001F79D5 /* libblink.a */; };
+		2CD3339B19539088001F79D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CD3339919539088001F79D5 /* InfoPlist.strings */; };
+		2CD3339D19539088001F79D5 /* blinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD3339C19539088001F79D5 /* blinkTests.m */; };
+		2CD333A719539097001F79D5 /* blinkExports.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CD333A619539097001F79D5 /* blinkExports.h */; };
+		2CD333A9195390A3001F79D5 /* blinkExports.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD333A8195390A3001F79D5 /* blinkExports.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CD3339319539088001F79D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CD3337419539088001F79D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CD3337B19539088001F79D5;
+			remoteInfo = blink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CD3337C19539088001F79D5 /* libblink.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libblink.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD3337F19539088001F79D5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2CD3338219539088001F79D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2CD3338319539088001F79D5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2CD3338419539088001F79D5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2CD3338719539088001F79D5 /* blink-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "blink-Prefix.pch"; sourceTree = "<group>"; };
+		2CD3338819539088001F79D5 /* blink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = blink.h; sourceTree = "<group>"; };
+		2CD3338919539088001F79D5 /* blink.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blink.m; sourceTree = "<group>"; };
+		2CD3338F19539088001F79D5 /* blinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD3339019539088001F79D5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2CD3339819539088001F79D5 /* blinkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "blinkTests-Info.plist"; sourceTree = "<group>"; };
+		2CD3339A19539088001F79D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2CD3339C19539088001F79D5 /* blinkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blinkTests.m; sourceTree = "<group>"; };
+		2CD333A619539097001F79D5 /* blinkExports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blinkExports.h; sourceTree = "<group>"; };
+		2CD333A8195390A3001F79D5 /* blinkExports.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = blinkExports.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CD3337919539088001F79D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD3338019539088001F79D5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD3338C19539088001F79D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD3339519539088001F79D5 /* libblink.a in Frameworks */,
+				2CD3339219539088001F79D5 /* Cocoa.framework in Frameworks */,
+				2CD3339119539088001F79D5 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CD3337319539088001F79D5 = {
+			isa = PBXGroup;
+			children = (
+				2CD3338519539088001F79D5 /* blink */,
+				2CD3339619539088001F79D5 /* blinkTests */,
+				2CD3337E19539088001F79D5 /* Frameworks */,
+				2CD3337D19539088001F79D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CD3337D19539088001F79D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CD3337C19539088001F79D5 /* libblink.a */,
+				2CD3338F19539088001F79D5 /* blinkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CD3337E19539088001F79D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CD3337F19539088001F79D5 /* Cocoa.framework */,
+				2CD3339019539088001F79D5 /* XCTest.framework */,
+				2CD3338119539088001F79D5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CD3338119539088001F79D5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CD3338219539088001F79D5 /* Foundation.framework */,
+				2CD3338319539088001F79D5 /* CoreData.framework */,
+				2CD3338419539088001F79D5 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2CD3338519539088001F79D5 /* blink */ = {
+			isa = PBXGroup;
+			children = (
+				2CD3338819539088001F79D5 /* blink.h */,
+				2CD3338919539088001F79D5 /* blink.m */,
+				2CD3338619539088001F79D5 /* Supporting Files */,
+				2CD333A619539097001F79D5 /* blinkExports.h */,
+				2CD333A8195390A3001F79D5 /* blinkExports.m */,
+			);
+			path = blink;
+			sourceTree = "<group>";
+		};
+		2CD3338619539088001F79D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CD3338719539088001F79D5 /* blink-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CD3339619539088001F79D5 /* blinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CD3339C19539088001F79D5 /* blinkTests.m */,
+				2CD3339719539088001F79D5 /* Supporting Files */,
+			);
+			path = blinkTests;
+			sourceTree = "<group>";
+		};
+		2CD3339719539088001F79D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CD3339819539088001F79D5 /* blinkTests-Info.plist */,
+				2CD3339919539088001F79D5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2CD3337A19539088001F79D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD333A719539097001F79D5 /* blinkExports.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2CD3337B19539088001F79D5 /* blink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD333A019539088001F79D5 /* Build configuration list for PBXNativeTarget "blink" */;
+			buildPhases = (
+				2CD3337819539088001F79D5 /* Sources */,
+				2CD3337919539088001F79D5 /* Frameworks */,
+				2CD3337A19539088001F79D5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = blink;
+			productName = blink;
+			productReference = 2CD3337C19539088001F79D5 /* libblink.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2CD3338E19539088001F79D5 /* blinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD333A319539088001F79D5 /* Build configuration list for PBXNativeTarget "blinkTests" */;
+			buildPhases = (
+				2CD3338B19539088001F79D5 /* Sources */,
+				2CD3338C19539088001F79D5 /* Frameworks */,
+				2CD3338D19539088001F79D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CD3339419539088001F79D5 /* PBXTargetDependency */,
+			);
+			name = blinkTests;
+			productName = blinkTests;
+			productReference = 2CD3338F19539088001F79D5 /* blinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CD3337419539088001F79D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = nettsundere;
+			};
+			buildConfigurationList = 2CD3337719539088001F79D5 /* Build configuration list for PBXProject "blink" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2CD3337319539088001F79D5;
+			productRefGroup = 2CD3337D19539088001F79D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CD3337B19539088001F79D5 /* blink */,
+				2CD3338E19539088001F79D5 /* blinkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CD3338D19539088001F79D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD3339B19539088001F79D5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CD3337819539088001F79D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD333A9195390A3001F79D5 /* blinkExports.m in Sources */,
+				2CD3338A19539088001F79D5 /* blink.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD3338B19539088001F79D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD3339D19539088001F79D5 /* blinkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CD3339419539088001F79D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CD3337B19539088001F79D5 /* blink */;
+			targetProxy = 2CD3339319539088001F79D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CD3339919539088001F79D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CD3339A19539088001F79D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CD3339E19539088001F79D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2CD3339F19539088001F79D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2CD333A119539088001F79D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "blink/blink-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CD333A219539088001F79D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "blink/blink-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2CD333A419539088001F79D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "blink/blink-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "blinkTests/blinkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2CD333A519539088001F79D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "blink/blink-Prefix.pch";
+				INFOPLIST_FILE = "blinkTests/blinkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CD3337719539088001F79D5 /* Build configuration list for PBXProject "blink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD3339E19539088001F79D5 /* Debug */,
+				2CD3339F19539088001F79D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CD333A019539088001F79D5 /* Build configuration list for PBXNativeTarget "blink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD333A119539088001F79D5 /* Debug */,
+				2CD333A219539088001F79D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CD333A319539088001F79D5 /* Build configuration list for PBXNativeTarget "blinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD333A419539088001F79D5 /* Debug */,
+				2CD333A519539088001F79D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CD3337419539088001F79D5 /* Project object */;
+}
