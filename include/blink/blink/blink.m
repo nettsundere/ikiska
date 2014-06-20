@@ -32,7 +32,7 @@
     return -1;
 }
 
-// Set brightness of all displays to specified value.
+// Set brightness of specified display to specified value.
 //
 + (void) setBrightnessOf:(int) displayNumber to:(float) newLevel {
     io_iterator_t ioIterator;
